@@ -134,14 +134,11 @@
 		if(parseInt(document.getElementById("display").innerHTML)===0 && num==0){
 			cal.valueDisplay(num);
 			document.getElementById("display").innerHTML = cal.valueDisplayOn;
-			alert("hola 2");
 
 		}else if(document.getElementById("display").innerHTML==0	&& num==0 ){
 			cal.valueDisplay(num, true);	
-			alert("hola 4");	
 			document.getElementById("display").innerHTML = cal.valueDisplayOn;
 		}else{
-			alert("hola 5");
 			cal.valueDisplay(num);		
 			document.getElementById("display").innerHTML = cal.valueDisplayOn;
 			}
